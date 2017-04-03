@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199AA0B819E46C8500E33C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0B719E46C8500E33C0F /* Foundation.framework */; };
+		199AA0BA19E46C8500E33C0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0B919E46C8500E33C0F /* CoreGraphics.framework */; };
+		199AA0BC19E46C8500E33C0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0BB19E46C8500E33C0F /* UIKit.framework */; };
+		199AA0C219E46C8500E33C0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199AA0C019E46C8500E33C0F /* InfoPlist.strings */; };
+		199AA0C419E46C8500E33C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA0C319E46C8500E33C0F /* main.m */; };
+		199AA0C819E46C8500E33C0F /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA0C719E46C8500E33C0F /* TRAppDelegate.m */; };
+		199AA0CB19E46C8500E33C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199AA0C919E46C8500E33C0F /* Main.storyboard */; };
+		199AA0CE19E46C8500E33C0F /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA0CD19E46C8500E33C0F /* TRViewController.m */; };
+		199AA0D019E46C8500E33C0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199AA0CF19E46C8500E33C0F /* Images.xcassets */; };
+		199AA0D719E46C8600E33C0F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0D619E46C8600E33C0F /* XCTest.framework */; };
+		199AA0D819E46C8600E33C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0B719E46C8500E33C0F /* Foundation.framework */; };
+		199AA0D919E46C8600E33C0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0BB19E46C8500E33C0F /* UIKit.framework */; };
+		199AA0E119E46C8600E33C0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199AA0DF19E46C8600E33C0F /* InfoPlist.strings */; };
+		199AA0E319E46C8600E33C0F /* Demo50_TicketSellingProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA0E219E46C8600E33C0F /* Demo50_TicketSellingProblemTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199AA0DA19E46C8600E33C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199AA0AC19E46C8500E33C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199AA0B319E46C8500E33C0F;
+			remoteInfo = Demo50_TicketSellingProblem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		199AA0B419E46C8500E33C0F /* Demo50_TicketSellingProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo50_TicketSellingProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		199AA0B719E46C8500E33C0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		199AA0B919E46C8500E33C0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		199AA0BB19E46C8500E33C0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		199AA0BF19E46C8500E33C0F /* Demo50_TicketSellingProblem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo50_TicketSellingProblem-Info.plist"; sourceTree = "<group>"; };
+		199AA0C119E46C8500E33C0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199AA0C319E46C8500E33C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		199AA0C519E46C8500E33C0F /* Demo50_TicketSellingProblem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo50_TicketSellingProblem-Prefix.pch"; sourceTree = "<group>"; };
+		199AA0C619E46C8500E33C0F /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
+		199AA0C719E46C8500E33C0F /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
+		199AA0CA19E46C8500E33C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		199AA0CC19E46C8500E33C0F /* TRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
+		199AA0CD19E46C8500E33C0F /* TRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
+		199AA0CF19E46C8500E33C0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		199AA0D519E46C8600E33C0F /* Demo50_TicketSellingProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo50_TicketSellingProblemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		199AA0D619E46C8600E33C0F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		199AA0DE19E46C8600E33C0F /* Demo50_TicketSellingProblemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo50_TicketSellingProblemTests-Info.plist"; sourceTree = "<group>"; };
+		199AA0E019E46C8600E33C0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199AA0E219E46C8600E33C0F /* Demo50_TicketSellingProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo50_TicketSellingProblemTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199AA0B119E46C8500E33C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA0BA19E46C8500E33C0F /* CoreGraphics.framework in Frameworks */,
+				199AA0BC19E46C8500E33C0F /* UIKit.framework in Frameworks */,
+				199AA0B819E46C8500E33C0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199AA0D219E46C8600E33C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA0D719E46C8600E33C0F /* XCTest.framework in Frameworks */,
+				199AA0D919E46C8600E33C0F /* UIKit.framework in Frameworks */,
+				199AA0D819E46C8600E33C0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199AA0AB19E46C8500E33C0F = {
+			isa = PBXGroup;
+			children = (
+				199AA0BD19E46C8500E33C0F /* Demo50_TicketSellingProblem */,
+				199AA0DC19E46C8600E33C0F /* Demo50_TicketSellingProblemTests */,
+				199AA0B619E46C8500E33C0F /* Frameworks */,
+				199AA0B519E46C8500E33C0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		199AA0B519E46C8500E33C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199AA0B419E46C8500E33C0F /* Demo50_TicketSellingProblem.app */,
+				199AA0D519E46C8600E33C0F /* Demo50_TicketSellingProblemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199AA0B619E46C8500E33C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				199AA0B719E46C8500E33C0F /* Foundation.framework */,
+				199AA0B919E46C8500E33C0F /* CoreGraphics.framework */,
+				199AA0BB19E46C8500E33C0F /* UIKit.framework */,
+				199AA0D619E46C8600E33C0F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		199AA0BD19E46C8500E33C0F /* Demo50_TicketSellingProblem */ = {
+			isa = PBXGroup;
+			children = (
+				199AA0C619E46C8500E33C0F /* TRAppDelegate.h */,
+				199AA0C719E46C8500E33C0F /* TRAppDelegate.m */,
+				199AA0C919E46C8500E33C0F /* Main.storyboard */,
+				199AA0CC19E46C8500E33C0F /* TRViewController.h */,
+				199AA0CD19E46C8500E33C0F /* TRViewController.m */,
+				199AA0CF19E46C8500E33C0F /* Images.xcassets */,
+				199AA0BE19E46C8500E33C0F /* Supporting Files */,
+			);
+			path = Demo50_TicketSellingProblem;
+			sourceTree = "<group>";
+		};
+		199AA0BE19E46C8500E33C0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199AA0BF19E46C8500E33C0F /* Demo50_TicketSellingProblem-Info.plist */,
+				199AA0C019E46C8500E33C0F /* InfoPlist.strings */,
+				199AA0C319E46C8500E33C0F /* main.m */,
+				199AA0C519E46C8500E33C0F /* Demo50_TicketSellingProblem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		199AA0DC19E46C8600E33C0F /* Demo50_TicketSellingProblemTests */ = {
+			isa = PBXGroup;
+			children = (
+				199AA0E219E46C8600E33C0F /* Demo50_TicketSellingProblemTests.m */,
+				199AA0DD19E46C8600E33C0F /* Supporting Files */,
+			);
+			path = Demo50_TicketSellingProblemTests;
+			sourceTree = "<group>";
+		};
+		199AA0DD19E46C8600E33C0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199AA0DE19E46C8600E33C0F /* Demo50_TicketSellingProblemTests-Info.plist */,
+				199AA0DF19E46C8600E33C0F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199AA0B319E46C8500E33C0F /* Demo50_TicketSellingProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199AA0E619E46C8600E33C0F /* Build configuration list for PBXNativeTarget "Demo50_TicketSellingProblem" */;
+			buildPhases = (
+				199AA0B019E46C8500E33C0F /* Sources */,
+				199AA0B119E46C8500E33C0F /* Frameworks */,
+				199AA0B219E46C8500E33C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo50_TicketSellingProblem;
+			productName = Demo50_TicketSellingProblem;
+			productReference = 199AA0B419E46C8500E33C0F /* Demo50_TicketSellingProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		199AA0D419E46C8600E33C0F /* Demo50_TicketSellingProblemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199AA0E919E46C8600E33C0F /* Build configuration list for PBXNativeTarget "Demo50_TicketSellingProblemTests" */;
+			buildPhases = (
+				199AA0D119E46C8600E33C0F /* Sources */,
+				199AA0D219E46C8600E33C0F /* Frameworks */,
+				199AA0D319E46C8600E33C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199AA0DB19E46C8600E33C0F /* PBXTargetDependency */,
+			);
+			name = Demo50_TicketSellingProblemTests;
+			productName = Demo50_TicketSellingProblemTests;
+			productReference = 199AA0D519E46C8600E33C0F /* Demo50_TicketSellingProblemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199AA0AC19E46C8500E33C0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MobileApp;
+				TargetAttributes = {
+					199AA0D419E46C8600E33C0F = {
+						TestTargetID = 199AA0B319E46C8500E33C0F;
+					};
+				};
+			};
+			buildConfigurationList = 199AA0AF19E46C8500E33C0F /* Build configuration list for PBXProject "Demo50_TicketSellingProblem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 199AA0AB19E46C8500E33C0F;
+			productRefGroup = 199AA0B519E46C8500E33C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199AA0B319E46C8500E33C0F /* Demo50_TicketSellingProblem */,
+				199AA0D419E46C8600E33C0F /* Demo50_TicketSellingProblemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199AA0B219E46C8500E33C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA0D019E46C8500E33C0F /* Images.xcassets in Resources */,
+				199AA0C219E46C8500E33C0F /* InfoPlist.strings in Resources */,
+				199AA0CB19E46C8500E33C0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199AA0D319E46C8600E33C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA0E119E46C8600E33C0F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199AA0B019E46C8500E33C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA0C819E46C8500E33C0F /* TRAppDelegate.m in Sources */,
+				199AA0C419E46C8500E33C0F /* main.m in Sources */,
+				199AA0CE19E46C8500E33C0F /* TRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199AA0D119E46C8600E33C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA0E319E46C8600E33C0F /* Demo50_TicketSellingProblemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		199AA0DB19E46C8600E33C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199AA0B319E46C8500E33C0F /* Demo50_TicketSellingProblem */;
+			targetProxy = 199AA0DA19E46C8600E33C0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		199AA0C019E46C8500E33C0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199AA0C119E46C8500E33C0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		199AA0C919E46C8500E33C0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199AA0CA19E46C8500E33C0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		199AA0DF19E46C8600E33C0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199AA0E019E46C8600E33C0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		199AA0E419E46C8600E33C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		199AA0E519E46C8600E33C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199AA0E719E46C8600E33C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo50_TicketSellingProblem/Demo50_TicketSellingProblem-Prefix.pch";
+				INFOPLIST_FILE = "Demo50_TicketSellingProblem/Demo50_TicketSellingProblem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		199AA0E819E46C8600E33C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo50_TicketSellingProblem/Demo50_TicketSellingProblem-Prefix.pch";
+				INFOPLIST_FILE = "Demo50_TicketSellingProblem/Demo50_TicketSellingProblem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		199AA0EA19E46C8600E33C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo50_TicketSellingProblem.app/Demo50_TicketSellingProblem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo50_TicketSellingProblem/Demo50_TicketSellingProblem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo50_TicketSellingProblemTests/Demo50_TicketSellingProblemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		199AA0EB19E46C8600E33C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo50_TicketSellingProblem.app/Demo50_TicketSellingProblem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo50_TicketSellingProblem/Demo50_TicketSellingProblem-Prefix.pch";
+				INFOPLIST_FILE = "Demo50_TicketSellingProblemTests/Demo50_TicketSellingProblemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199AA0AF19E46C8500E33C0F /* Build configuration list for PBXProject "Demo50_TicketSellingProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199AA0E419E46C8600E33C0F /* Debug */,
+				199AA0E519E46C8600E33C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199AA0E619E46C8600E33C0F /* Build configuration list for PBXNativeTarget "Demo50_TicketSellingProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199AA0E719E46C8600E33C0F /* Debug */,
+				199AA0E819E46C8600E33C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		199AA0E919E46C8600E33C0F /* Build configuration list for PBXNativeTarget "Demo50_TicketSellingProblemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199AA0EA19E46C8600E33C0F /* Debug */,
+				199AA0EB19E46C8600E33C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199AA0AC19E46C8500E33C0F /* Project object */;
+}

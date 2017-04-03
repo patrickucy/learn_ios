@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0510"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1908126119B977B300CE1ADF"
+               BuildableName = "Demo46_MusicPlayerWithInternetDownload.app"
+               BlueprintName = "Demo46_MusicPlayerWithInternetDownload"
+               ReferencedContainer = "container:Demo46_MusicPlayerWithInternetDownload.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1908128219B977B400CE1ADF"
+               BuildableName = "Demo46_MusicPlayerWithInternetDownloadTests.xctest"
+               BlueprintName = "Demo46_MusicPlayerWithInternetDownloadTests"
+               ReferencedContainer = "container:Demo46_MusicPlayerWithInternetDownload.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1908126119B977B300CE1ADF"
+            BuildableName = "Demo46_MusicPlayerWithInternetDownload.app"
+            BlueprintName = "Demo46_MusicPlayerWithInternetDownload"
+            ReferencedContainer = "container:Demo46_MusicPlayerWithInternetDownload.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1908126119B977B300CE1ADF"
+            BuildableName = "Demo46_MusicPlayerWithInternetDownload.app"
+            BlueprintName = "Demo46_MusicPlayerWithInternetDownload"
+            ReferencedContainer = "container:Demo46_MusicPlayerWithInternetDownload.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1908126119B977B300CE1ADF"
+            BuildableName = "Demo46_MusicPlayerWithInternetDownload.app"
+            BlueprintName = "Demo46_MusicPlayerWithInternetDownload"
+            ReferencedContainer = "container:Demo46_MusicPlayerWithInternetDownload.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

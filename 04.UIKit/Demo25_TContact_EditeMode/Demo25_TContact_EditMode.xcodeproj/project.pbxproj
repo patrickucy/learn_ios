@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19843391196263340099B805 /* TRAddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19843387196263340099B805 /* TRAddContactViewController.m */; };
+		19843392196263340099B805 /* TRAddContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19843388196263340099B805 /* TRAddContactViewController.xib */; };
+		19843393196263340099B805 /* TRContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984338A196263340099B805 /* TRContact.m */; };
+		19843394196263340099B805 /* TRContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984338C196263340099B805 /* TRContactsViewController.m */; };
+		19843395196263340099B805 /* TRContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1984338D196263340099B805 /* TRContactsViewController.xib */; };
+		19843396196263340099B805 /* TRContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1984338F196263340099B805 /* TRContactViewController.m */; };
+		19843397196263340099B805 /* TRContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19843390196263340099B805 /* TRContactViewController.xib */; };
+		199805E7196255DD00798912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199805E6196255DD00798912 /* Foundation.framework */; };
+		199805E9196255DD00798912 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199805E8196255DD00798912 /* CoreGraphics.framework */; };
+		199805EB196255DD00798912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199805EA196255DD00798912 /* UIKit.framework */; };
+		199805F1196255DD00798912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199805EF196255DD00798912 /* InfoPlist.strings */; };
+		199805F3196255DD00798912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199805F2196255DD00798912 /* main.m */; };
+		199805F7196255DD00798912 /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199805F6196255DD00798912 /* TRAppDelegate.m */; };
+		199805F9196255DD00798912 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199805F8196255DD00798912 /* Images.xcassets */; };
+		19980600196255DD00798912 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199805FF196255DD00798912 /* XCTest.framework */; };
+		19980601196255DD00798912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199805E6196255DD00798912 /* Foundation.framework */; };
+		19980602196255DD00798912 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199805EA196255DD00798912 /* UIKit.framework */; };
+		1998060A196255DD00798912 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19980608196255DD00798912 /* InfoPlist.strings */; };
+		1998060C196255DD00798912 /* Demo25_TContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1998060B196255DD00798912 /* Demo25_TContactTests.m */; };
+		19B2A0FE19626C8300FB607D /* TREditContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B2A0FC19626C8300FB607D /* TREditContactViewController.m */; };
+		19B2A0FF19626C8300FB607D /* TREditContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B2A0FD19626C8300FB607D /* TREditContactViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19980603196255DD00798912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199805DB196255DD00798912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199805E2196255DD00798912;
+			remoteInfo = Demo25_TContact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19843386196263340099B805 /* TRAddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRAddContactViewController.h; sourceTree = "<group>"; };
+		19843387196263340099B805 /* TRAddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRAddContactViewController.m; sourceTree = "<group>"; };
+		19843388196263340099B805 /* TRAddContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRAddContactViewController.xib; sourceTree = "<group>"; };
+		19843389196263340099B805 /* TRContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRContact.h; sourceTree = "<group>"; };
+		1984338A196263340099B805 /* TRContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRContact.m; sourceTree = "<group>"; };
+		1984338B196263340099B805 /* TRContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRContactsViewController.h; sourceTree = "<group>"; };
+		1984338C196263340099B805 /* TRContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRContactsViewController.m; sourceTree = "<group>"; };
+		1984338D196263340099B805 /* TRContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRContactsViewController.xib; sourceTree = "<group>"; };
+		1984338E196263340099B805 /* TRContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRContactViewController.h; sourceTree = "<group>"; };
+		1984338F196263340099B805 /* TRContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRContactViewController.m; sourceTree = "<group>"; };
+		19843390196263340099B805 /* TRContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRContactViewController.xib; sourceTree = "<group>"; };
+		199805E3196255DD00798912 /* Demo25_TContact_EditMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo25_TContact_EditMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		199805E6196255DD00798912 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		199805E8196255DD00798912 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		199805EA196255DD00798912 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		199805EE196255DD00798912 /* Demo25_TContact_EditMode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo25_TContact_EditMode-Info.plist"; sourceTree = "<group>"; };
+		199805F0196255DD00798912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199805F2196255DD00798912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		199805F4196255DD00798912 /* Demo25_TContact_EditMode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo25_TContact_EditMode-Prefix.pch"; sourceTree = "<group>"; };
+		199805F5196255DD00798912 /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
+		199805F6196255DD00798912 /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
+		199805F8196255DD00798912 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		199805FE196255DD00798912 /* Demo25_TContact_EditModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo25_TContact_EditModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		199805FF196255DD00798912 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		19980607196255DD00798912 /* Demo25_TContact_EditModeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo25_TContact_EditModeTests-Info.plist"; sourceTree = "<group>"; };
+		19980609196255DD00798912 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1998060B196255DD00798912 /* Demo25_TContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo25_TContactTests.m; sourceTree = "<group>"; };
+		19B2A0FB19626C8300FB607D /* TREditContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TREditContactViewController.h; sourceTree = "<group>"; };
+		19B2A0FC19626C8300FB607D /* TREditContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TREditContactViewController.m; sourceTree = "<group>"; };
+		19B2A0FD19626C8300FB607D /* TREditContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TREditContactViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199805E0196255DD00798912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199805E9196255DD00798912 /* CoreGraphics.framework in Frameworks */,
+				199805EB196255DD00798912 /* UIKit.framework in Frameworks */,
+				199805E7196255DD00798912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199805FB196255DD00798912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19980600196255DD00798912 /* XCTest.framework in Frameworks */,
+				19980602196255DD00798912 /* UIKit.framework in Frameworks */,
+				19980601196255DD00798912 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19843398196263530099B805 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				19843389196263340099B805 /* TRContact.h */,
+				1984338A196263340099B805 /* TRContact.m */,
+			);
+			name = Modle;
+			sourceTree = "<group>";
+		};
+		199805DA196255DD00798912 = {
+			isa = PBXGroup;
+			children = (
+				199805EC196255DD00798912 /* Demo25_TContact */,
+				19980605196255DD00798912 /* Demo25_TContactTests */,
+				199805E5196255DD00798912 /* Frameworks */,
+				199805E4196255DD00798912 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		199805E4196255DD00798912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199805E3196255DD00798912 /* Demo25_TContact_EditMode.app */,
+				199805FE196255DD00798912 /* Demo25_TContact_EditModeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199805E5196255DD00798912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				199805E6196255DD00798912 /* Foundation.framework */,
+				199805E8196255DD00798912 /* CoreGraphics.framework */,
+				199805EA196255DD00798912 /* UIKit.framework */,
+				199805FF196255DD00798912 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		199805EC196255DD00798912 /* Demo25_TContact */ = {
+			isa = PBXGroup;
+			children = (
+				199805F5196255DD00798912 /* TRAppDelegate.h */,
+				199805F6196255DD00798912 /* TRAppDelegate.m */,
+				1984338B196263340099B805 /* TRContactsViewController.h */,
+				1984338C196263340099B805 /* TRContactsViewController.m */,
+				1984338D196263340099B805 /* TRContactsViewController.xib */,
+				19843386196263340099B805 /* TRAddContactViewController.h */,
+				19843387196263340099B805 /* TRAddContactViewController.m */,
+				19843388196263340099B805 /* TRAddContactViewController.xib */,
+				1984338E196263340099B805 /* TRContactViewController.h */,
+				1984338F196263340099B805 /* TRContactViewController.m */,
+				19843390196263340099B805 /* TRContactViewController.xib */,
+				19B2A0FB19626C8300FB607D /* TREditContactViewController.h */,
+				19B2A0FC19626C8300FB607D /* TREditContactViewController.m */,
+				19B2A0FD19626C8300FB607D /* TREditContactViewController.xib */,
+				19843398196263530099B805 /* Modle */,
+				199805F8196255DD00798912 /* Images.xcassets */,
+				199805ED196255DD00798912 /* Supporting Files */,
+			);
+			path = Demo25_TContact;
+			sourceTree = "<group>";
+		};
+		199805ED196255DD00798912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199805EE196255DD00798912 /* Demo25_TContact_EditMode-Info.plist */,
+				199805EF196255DD00798912 /* InfoPlist.strings */,
+				199805F2196255DD00798912 /* main.m */,
+				199805F4196255DD00798912 /* Demo25_TContact_EditMode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19980605196255DD00798912 /* Demo25_TContactTests */ = {
+			isa = PBXGroup;
+			children = (
+				1998060B196255DD00798912 /* Demo25_TContactTests.m */,
+				19980606196255DD00798912 /* Supporting Files */,
+			);
+			path = Demo25_TContactTests;
+			sourceTree = "<group>";
+		};
+		19980606196255DD00798912 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19980607196255DD00798912 /* Demo25_TContact_EditModeTests-Info.plist */,
+				19980608196255DD00798912 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199805E2196255DD00798912 /* Demo25_TContact_EditMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1998060F196255DD00798912 /* Build configuration list for PBXNativeTarget "Demo25_TContact_EditMode" */;
+			buildPhases = (
+				199805DF196255DD00798912 /* Sources */,
+				199805E0196255DD00798912 /* Frameworks */,
+				199805E1196255DD00798912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo25_TContact_EditMode;
+			productName = Demo25_TContact;
+			productReference = 199805E3196255DD00798912 /* Demo25_TContact_EditMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		199805FD196255DD00798912 /* Demo25_TContact_EditModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19980612196255DD00798912 /* Build configuration list for PBXNativeTarget "Demo25_TContact_EditModeTests" */;
+			buildPhases = (
+				199805FA196255DD00798912 /* Sources */,
+				199805FB196255DD00798912 /* Frameworks */,
+				199805FC196255DD00798912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19980604196255DD00798912 /* PBXTargetDependency */,
+			);
+			name = Demo25_TContact_EditModeTests;
+			productName = Demo25_TContactTests;
+			productReference = 199805FE196255DD00798912 /* Demo25_TContact_EditModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199805DB196255DD00798912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MobileApp;
+				TargetAttributes = {
+					199805FD196255DD00798912 = {
+						TestTargetID = 199805E2196255DD00798912;
+					};
+				};
+			};
+			buildConfigurationList = 199805DE196255DD00798912 /* Build configuration list for PBXProject "Demo25_TContact_EditMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 199805DA196255DD00798912;
+			productRefGroup = 199805E4196255DD00798912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199805E2196255DD00798912 /* Demo25_TContact_EditMode */,
+				199805FD196255DD00798912 /* Demo25_TContact_EditModeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199805E1196255DD00798912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199805F1196255DD00798912 /* InfoPlist.strings in Resources */,
+				19843395196263340099B805 /* TRContactsViewController.xib in Resources */,
+				19843392196263340099B805 /* TRAddContactViewController.xib in Resources */,
+				199805F9196255DD00798912 /* Images.xcassets in Resources */,
+				19843397196263340099B805 /* TRContactViewController.xib in Resources */,
+				19B2A0FF19626C8300FB607D /* TREditContactViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199805FC196255DD00798912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1998060A196255DD00798912 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199805DF196255DD00798912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B2A0FE19626C8300FB607D /* TREditContactViewController.m in Sources */,
+				19843393196263340099B805 /* TRContact.m in Sources */,
+				199805F7196255DD00798912 /* TRAppDelegate.m in Sources */,
+				199805F3196255DD00798912 /* main.m in Sources */,
+				19843396196263340099B805 /* TRContactViewController.m in Sources */,
+				19843394196263340099B805 /* TRContactsViewController.m in Sources */,
+				19843391196263340099B805 /* TRAddContactViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199805FA196255DD00798912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1998060C196255DD00798912 /* Demo25_TContactTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19980604196255DD00798912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199805E2196255DD00798912 /* Demo25_TContact_EditMode */;
+			targetProxy = 19980603196255DD00798912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		199805EF196255DD00798912 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199805F0196255DD00798912 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19980608196255DD00798912 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19980609196255DD00798912 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1998060D196255DD00798912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1998060E196255DD00798912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19980610196255DD00798912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo25_TContact/Demo25_TContact_EditMode-Prefix.pch";
+				INFOPLIST_FILE = "Demo25_TContact/Demo25_TContact_EditMode-Info.plist";
+				PRODUCT_NAME = Demo25_TContact_EditMode;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19980611196255DD00798912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo25_TContact/Demo25_TContact_EditMode-Prefix.pch";
+				INFOPLIST_FILE = "Demo25_TContact/Demo25_TContact_EditMode-Info.plist";
+				PRODUCT_NAME = Demo25_TContact_EditMode;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19980613196255DD00798912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo25_TContact.app/Demo25_TContact";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo25_TContact/Demo25_TContact-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo25_TContactTests/Demo25_TContact_EditModeTests-Info.plist";
+				PRODUCT_NAME = Demo25_TContact_EditModeTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		19980614196255DD00798912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo25_TContact.app/Demo25_TContact";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo25_TContact/Demo25_TContact-Prefix.pch";
+				INFOPLIST_FILE = "Demo25_TContactTests/Demo25_TContact_EditModeTests-Info.plist";
+				PRODUCT_NAME = Demo25_TContact_EditModeTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199805DE196255DD00798912 /* Build configuration list for PBXProject "Demo25_TContact_EditMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1998060D196255DD00798912 /* Debug */,
+				1998060E196255DD00798912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1998060F196255DD00798912 /* Build configuration list for PBXNativeTarget "Demo25_TContact_EditMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19980610196255DD00798912 /* Debug */,
+				19980611196255DD00798912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19980612196255DD00798912 /* Build configuration list for PBXNativeTarget "Demo25_TContact_EditModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19980613196255DD00798912 /* Debug */,
+				19980614196255DD00798912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199805DB196255DD00798912 /* Project object */;
+}

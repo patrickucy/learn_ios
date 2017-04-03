@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199AA0F919E48DD300E33C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0F819E48DD300E33C0F /* Foundation.framework */; };
+		199AA0FB19E48DD300E33C0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0FA19E48DD300E33C0F /* CoreGraphics.framework */; };
+		199AA0FD19E48DD300E33C0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0FC19E48DD300E33C0F /* UIKit.framework */; };
+		199AA10319E48DD300E33C0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199AA10119E48DD300E33C0F /* InfoPlist.strings */; };
+		199AA10519E48DD300E33C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA10419E48DD300E33C0F /* main.m */; };
+		199AA10919E48DD300E33C0F /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA10819E48DD300E33C0F /* TRAppDelegate.m */; };
+		199AA10C19E48DD300E33C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199AA10A19E48DD300E33C0F /* Main.storyboard */; };
+		199AA10F19E48DD300E33C0F /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA10E19E48DD300E33C0F /* TRViewController.m */; };
+		199AA11119E48DD300E33C0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199AA11019E48DD300E33C0F /* Images.xcassets */; };
+		199AA11819E48DD400E33C0F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA11719E48DD400E33C0F /* XCTest.framework */; };
+		199AA11919E48DD400E33C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0F819E48DD300E33C0F /* Foundation.framework */; };
+		199AA11A19E48DD400E33C0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199AA0FC19E48DD300E33C0F /* UIKit.framework */; };
+		199AA12219E48DD400E33C0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199AA12019E48DD400E33C0F /* InfoPlist.strings */; };
+		199AA12419E48DD400E33C0F /* Demo51_HitMouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA12319E48DD400E33C0F /* Demo51_HitMouseTests.m */; };
+		199AA12F19E48E0600E33C0F /* TRMouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 199AA12E19E48E0600E33C0F /* TRMouse.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199AA11B19E48DD400E33C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199AA0ED19E48DD300E33C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199AA0F419E48DD300E33C0F;
+			remoteInfo = Demo51_HitMouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		199AA0F519E48DD300E33C0F /* Demo51_HitMouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo51_HitMouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		199AA0F819E48DD300E33C0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		199AA0FA19E48DD300E33C0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		199AA0FC19E48DD300E33C0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		199AA10019E48DD300E33C0F /* Demo51_HitMouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo51_HitMouse-Info.plist"; sourceTree = "<group>"; };
+		199AA10219E48DD300E33C0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199AA10419E48DD300E33C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		199AA10619E48DD300E33C0F /* Demo51_HitMouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo51_HitMouse-Prefix.pch"; sourceTree = "<group>"; };
+		199AA10719E48DD300E33C0F /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
+		199AA10819E48DD300E33C0F /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
+		199AA10B19E48DD300E33C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		199AA10D19E48DD300E33C0F /* TRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
+		199AA10E19E48DD300E33C0F /* TRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
+		199AA11019E48DD300E33C0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		199AA11619E48DD400E33C0F /* Demo51_HitMouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo51_HitMouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		199AA11719E48DD400E33C0F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		199AA11F19E48DD400E33C0F /* Demo51_HitMouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo51_HitMouseTests-Info.plist"; sourceTree = "<group>"; };
+		199AA12119E48DD400E33C0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199AA12319E48DD400E33C0F /* Demo51_HitMouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo51_HitMouseTests.m; sourceTree = "<group>"; };
+		199AA12D19E48E0600E33C0F /* TRMouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMouse.h; sourceTree = "<group>"; };
+		199AA12E19E48E0600E33C0F /* TRMouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMouse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199AA0F219E48DD300E33C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA0FB19E48DD300E33C0F /* CoreGraphics.framework in Frameworks */,
+				199AA0FD19E48DD300E33C0F /* UIKit.framework in Frameworks */,
+				199AA0F919E48DD300E33C0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199AA11319E48DD400E33C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA11819E48DD400E33C0F /* XCTest.framework in Frameworks */,
+				199AA11A19E48DD400E33C0F /* UIKit.framework in Frameworks */,
+				199AA11919E48DD400E33C0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199AA0EC19E48DD300E33C0F = {
+			isa = PBXGroup;
+			children = (
+				199AA0FE19E48DD300E33C0F /* Demo51_HitMouse */,
+				199AA11D19E48DD400E33C0F /* Demo51_HitMouseTests */,
+				199AA0F719E48DD300E33C0F /* Frameworks */,
+				199AA0F619E48DD300E33C0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		199AA0F619E48DD300E33C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199AA0F519E48DD300E33C0F /* Demo51_HitMouse.app */,
+				199AA11619E48DD400E33C0F /* Demo51_HitMouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199AA0F719E48DD300E33C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				199AA0F819E48DD300E33C0F /* Foundation.framework */,
+				199AA0FA19E48DD300E33C0F /* CoreGraphics.framework */,
+				199AA0FC19E48DD300E33C0F /* UIKit.framework */,
+				199AA11719E48DD400E33C0F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		199AA0FE19E48DD300E33C0F /* Demo51_HitMouse */ = {
+			isa = PBXGroup;
+			children = (
+				199AA10719E48DD300E33C0F /* TRAppDelegate.h */,
+				199AA10819E48DD300E33C0F /* TRAppDelegate.m */,
+				199AA10A19E48DD300E33C0F /* Main.storyboard */,
+				199AA10D19E48DD300E33C0F /* TRViewController.h */,
+				199AA10E19E48DD300E33C0F /* TRViewController.m */,
+				199AA12D19E48E0600E33C0F /* TRMouse.h */,
+				199AA12E19E48E0600E33C0F /* TRMouse.m */,
+				199AA11019E48DD300E33C0F /* Images.xcassets */,
+				199AA0FF19E48DD300E33C0F /* Supporting Files */,
+			);
+			path = Demo51_HitMouse;
+			sourceTree = "<group>";
+		};
+		199AA0FF19E48DD300E33C0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199AA10019E48DD300E33C0F /* Demo51_HitMouse-Info.plist */,
+				199AA10119E48DD300E33C0F /* InfoPlist.strings */,
+				199AA10419E48DD300E33C0F /* main.m */,
+				199AA10619E48DD300E33C0F /* Demo51_HitMouse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		199AA11D19E48DD400E33C0F /* Demo51_HitMouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				199AA12319E48DD400E33C0F /* Demo51_HitMouseTests.m */,
+				199AA11E19E48DD400E33C0F /* Supporting Files */,
+			);
+			path = Demo51_HitMouseTests;
+			sourceTree = "<group>";
+		};
+		199AA11E19E48DD400E33C0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199AA11F19E48DD400E33C0F /* Demo51_HitMouseTests-Info.plist */,
+				199AA12019E48DD400E33C0F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199AA0F419E48DD300E33C0F /* Demo51_HitMouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199AA12719E48DD400E33C0F /* Build configuration list for PBXNativeTarget "Demo51_HitMouse" */;
+			buildPhases = (
+				199AA0F119E48DD300E33C0F /* Sources */,
+				199AA0F219E48DD300E33C0F /* Frameworks */,
+				199AA0F319E48DD300E33C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo51_HitMouse;
+			productName = Demo51_HitMouse;
+			productReference = 199AA0F519E48DD300E33C0F /* Demo51_HitMouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		199AA11519E48DD400E33C0F /* Demo51_HitMouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199AA12A19E48DD400E33C0F /* Build configuration list for PBXNativeTarget "Demo51_HitMouseTests" */;
+			buildPhases = (
+				199AA11219E48DD400E33C0F /* Sources */,
+				199AA11319E48DD400E33C0F /* Frameworks */,
+				199AA11419E48DD400E33C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199AA11C19E48DD400E33C0F /* PBXTargetDependency */,
+			);
+			name = Demo51_HitMouseTests;
+			productName = Demo51_HitMouseTests;
+			productReference = 199AA11619E48DD400E33C0F /* Demo51_HitMouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199AA0ED19E48DD300E33C0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MobileApp;
+				TargetAttributes = {
+					199AA11519E48DD400E33C0F = {
+						TestTargetID = 199AA0F419E48DD300E33C0F;
+					};
+				};
+			};
+			buildConfigurationList = 199AA0F019E48DD300E33C0F /* Build configuration list for PBXProject "Demo51_HitMouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 199AA0EC19E48DD300E33C0F;
+			productRefGroup = 199AA0F619E48DD300E33C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199AA0F419E48DD300E33C0F /* Demo51_HitMouse */,
+				199AA11519E48DD400E33C0F /* Demo51_HitMouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199AA0F319E48DD300E33C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA11119E48DD300E33C0F /* Images.xcassets in Resources */,
+				199AA10319E48DD300E33C0F /* InfoPlist.strings in Resources */,
+				199AA10C19E48DD300E33C0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199AA11419E48DD400E33C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA12219E48DD400E33C0F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199AA0F119E48DD300E33C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA10919E48DD300E33C0F /* TRAppDelegate.m in Sources */,
+				199AA10519E48DD300E33C0F /* main.m in Sources */,
+				199AA10F19E48DD300E33C0F /* TRViewController.m in Sources */,
+				199AA12F19E48E0600E33C0F /* TRMouse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199AA11219E48DD400E33C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199AA12419E48DD400E33C0F /* Demo51_HitMouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		199AA11C19E48DD400E33C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199AA0F419E48DD300E33C0F /* Demo51_HitMouse */;
+			targetProxy = 199AA11B19E48DD400E33C0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		199AA10119E48DD300E33C0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199AA10219E48DD300E33C0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		199AA10A19E48DD300E33C0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199AA10B19E48DD300E33C0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		199AA12019E48DD400E33C0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199AA12119E48DD400E33C0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		199AA12519E48DD400E33C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		199AA12619E48DD400E33C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199AA12819E48DD400E33C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo51_HitMouse/Demo51_HitMouse-Prefix.pch";
+				INFOPLIST_FILE = "Demo51_HitMouse/Demo51_HitMouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		199AA12919E48DD400E33C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo51_HitMouse/Demo51_HitMouse-Prefix.pch";
+				INFOPLIST_FILE = "Demo51_HitMouse/Demo51_HitMouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		199AA12B19E48DD400E33C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo51_HitMouse.app/Demo51_HitMouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo51_HitMouse/Demo51_HitMouse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo51_HitMouseTests/Demo51_HitMouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		199AA12C19E48DD400E33C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo51_HitMouse.app/Demo51_HitMouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo51_HitMouse/Demo51_HitMouse-Prefix.pch";
+				INFOPLIST_FILE = "Demo51_HitMouseTests/Demo51_HitMouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199AA0F019E48DD300E33C0F /* Build configuration list for PBXProject "Demo51_HitMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199AA12519E48DD400E33C0F /* Debug */,
+				199AA12619E48DD400E33C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199AA12719E48DD400E33C0F /* Build configuration list for PBXNativeTarget "Demo51_HitMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199AA12819E48DD400E33C0F /* Debug */,
+				199AA12919E48DD400E33C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		199AA12A19E48DD400E33C0F /* Build configuration list for PBXNativeTarget "Demo51_HitMouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199AA12B19E48DD400E33C0F /* Debug */,
+				199AA12C19E48DD400E33C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199AA0ED19E48DD300E33C0F /* Project object */;
+}

@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B9D6C41A1E88BF00F583FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6C31A1E88BF00F583FB /* main.cpp */; };
+		19B9D6C61A1E88BF00F583FB /* Demo07_1_Practise.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19B9D6C51A1E88BF00F583FB /* Demo07_1_Practise.1 */; };
+		19B9D6CE1A1E88DB00F583FB /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6CC1A1E88DB00F583FB /* Hero.cpp */; };
+		19B9D6D11A1E88E600F583FB /* Skill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6CF1A1E88E600F583FB /* Skill.cpp */; };
+		19B9D6D41A1E88F200F583FB /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6D21A1E88F200F583FB /* Enemy.cpp */; };
+		19B9D6D71A1E88FD00F583FB /* Ice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6D51A1E88FD00F583FB /* Ice.cpp */; };
+		19B9D6DA1A1E890500F583FB /* Fire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6D81A1E890500F583FB /* Fire.cpp */; };
+		19B9D6DD1A1E891400F583FB /* Thunder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6DB1A1E891400F583FB /* Thunder.cpp */; };
+		19B9D6E01A1E891D00F583FB /* Crow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6DE1A1E891D00F583FB /* Crow.cpp */; };
+		19B9D6E31A1E892800F583FB /* Boar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6E11A1E892800F583FB /* Boar.cpp */; };
+		19B9D6E61A1E893000F583FB /* Monkey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19B9D6E41A1E893000F583FB /* Monkey.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19B9D6BE1A1E88BF00F583FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				19B9D6C61A1E88BF00F583FB /* Demo07_1_Practise.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19B9D6C01A1E88BF00F583FB /* Demo07.1_Practise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Demo07.1_Practise; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B9D6C31A1E88BF00F583FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		19B9D6C51A1E88BF00F583FB /* Demo07_1_Practise.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Demo07_1_Practise.1; sourceTree = "<group>"; };
+		19B9D6CC1A1E88DB00F583FB /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hero.cpp; sourceTree = "<group>"; };
+		19B9D6CD1A1E88DB00F583FB /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		19B9D6CF1A1E88E600F583FB /* Skill.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Skill.cpp; path = ../Skill.cpp; sourceTree = "<group>"; };
+		19B9D6D01A1E88E600F583FB /* Skill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Skill.h; path = ../Skill.h; sourceTree = "<group>"; };
+		19B9D6D21A1E88F200F583FB /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		19B9D6D31A1E88F200F583FB /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		19B9D6D51A1E88FD00F583FB /* Ice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ice.cpp; sourceTree = "<group>"; };
+		19B9D6D61A1E88FD00F583FB /* Ice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ice.h; sourceTree = "<group>"; };
+		19B9D6D81A1E890500F583FB /* Fire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fire.cpp; sourceTree = "<group>"; };
+		19B9D6D91A1E890500F583FB /* Fire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fire.h; sourceTree = "<group>"; };
+		19B9D6DB1A1E891400F583FB /* Thunder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thunder.cpp; sourceTree = "<group>"; };
+		19B9D6DC1A1E891400F583FB /* Thunder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thunder.h; sourceTree = "<group>"; };
+		19B9D6DE1A1E891D00F583FB /* Crow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Crow.cpp; sourceTree = "<group>"; };
+		19B9D6DF1A1E891D00F583FB /* Crow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crow.h; sourceTree = "<group>"; };
+		19B9D6E11A1E892800F583FB /* Boar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Boar.cpp; sourceTree = "<group>"; };
+		19B9D6E21A1E892800F583FB /* Boar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boar.h; sourceTree = "<group>"; };
+		19B9D6E41A1E893000F583FB /* Monkey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monkey.cpp; sourceTree = "<group>"; };
+		19B9D6E51A1E893000F583FB /* Monkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B9D6BD1A1E88BF00F583FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B9D6B71A1E88BF00F583FB = {
+			isa = PBXGroup;
+			children = (
+				19B9D6C21A1E88BF00F583FB /* Demo07.1_Practise */,
+				19B9D6C11A1E88BF00F583FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B9D6C11A1E88BF00F583FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B9D6C01A1E88BF00F583FB /* Demo07.1_Practise */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B9D6C21A1E88BF00F583FB /* Demo07.1_Practise */ = {
+			isa = PBXGroup;
+			children = (
+				19B9D6C31A1E88BF00F583FB /* main.cpp */,
+				19B9D6CC1A1E88DB00F583FB /* Hero.cpp */,
+				19B9D6CD1A1E88DB00F583FB /* Hero.h */,
+				19B9D6E81A1E895100F583FB /* Skill */,
+				19B9D6E71A1E893900F583FB /* Enemy */,
+				19B9D6C51A1E88BF00F583FB /* Demo07_1_Practise.1 */,
+			);
+			path = Demo07.1_Practise;
+			sourceTree = "<group>";
+		};
+		19B9D6E71A1E893900F583FB /* Enemy */ = {
+			isa = PBXGroup;
+			children = (
+				19B9D6D21A1E88F200F583FB /* Enemy.cpp */,
+				19B9D6D31A1E88F200F583FB /* Enemy.h */,
+				19B9D6DE1A1E891D00F583FB /* Crow.cpp */,
+				19B9D6DF1A1E891D00F583FB /* Crow.h */,
+				19B9D6E11A1E892800F583FB /* Boar.cpp */,
+				19B9D6E21A1E892800F583FB /* Boar.h */,
+				19B9D6E41A1E893000F583FB /* Monkey.cpp */,
+				19B9D6E51A1E893000F583FB /* Monkey.h */,
+			);
+			name = Enemy;
+			sourceTree = "<group>";
+		};
+		19B9D6E81A1E895100F583FB /* Skill */ = {
+			isa = PBXGroup;
+			children = (
+				19B9D6CF1A1E88E600F583FB /* Skill.cpp */,
+				19B9D6D01A1E88E600F583FB /* Skill.h */,
+				19B9D6D51A1E88FD00F583FB /* Ice.cpp */,
+				19B9D6D61A1E88FD00F583FB /* Ice.h */,
+				19B9D6D81A1E890500F583FB /* Fire.cpp */,
+				19B9D6D91A1E890500F583FB /* Fire.h */,
+				19B9D6DB1A1E891400F583FB /* Thunder.cpp */,
+				19B9D6DC1A1E891400F583FB /* Thunder.h */,
+			);
+			name = Skill;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B9D6BF1A1E88BF00F583FB /* Demo07.1_Practise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B9D6C91A1E88BF00F583FB /* Build configuration list for PBXNativeTarget "Demo07.1_Practise" */;
+			buildPhases = (
+				19B9D6BC1A1E88BF00F583FB /* Sources */,
+				19B9D6BD1A1E88BF00F583FB /* Frameworks */,
+				19B9D6BE1A1E88BF00F583FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo07.1_Practise;
+			productName = Demo07.1_Practise;
+			productReference = 19B9D6C01A1E88BF00F583FB /* Demo07.1_Practise */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B9D6B81A1E88BF00F583FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MobileApp;
+			};
+			buildConfigurationList = 19B9D6BB1A1E88BF00F583FB /* Build configuration list for PBXProject "Demo07.1_Practise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19B9D6B71A1E88BF00F583FB;
+			productRefGroup = 19B9D6C11A1E88BF00F583FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B9D6BF1A1E88BF00F583FB /* Demo07.1_Practise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B9D6BC1A1E88BF00F583FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B9D6E61A1E893000F583FB /* Monkey.cpp in Sources */,
+				19B9D6E31A1E892800F583FB /* Boar.cpp in Sources */,
+				19B9D6D41A1E88F200F583FB /* Enemy.cpp in Sources */,
+				19B9D6C41A1E88BF00F583FB /* main.cpp in Sources */,
+				19B9D6CE1A1E88DB00F583FB /* Hero.cpp in Sources */,
+				19B9D6DA1A1E890500F583FB /* Fire.cpp in Sources */,
+				19B9D6E01A1E891D00F583FB /* Crow.cpp in Sources */,
+				19B9D6D11A1E88E600F583FB /* Skill.cpp in Sources */,
+				19B9D6DD1A1E891400F583FB /* Thunder.cpp in Sources */,
+				19B9D6D71A1E88FD00F583FB /* Ice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19B9D6C71A1E88BF00F583FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		19B9D6C81A1E88BF00F583FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		19B9D6CA1A1E88BF00F583FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19B9D6CB1A1E88BF00F583FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B9D6BB1A1E88BF00F583FB /* Build configuration list for PBXProject "Demo07.1_Practise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B9D6C71A1E88BF00F583FB /* Debug */,
+				19B9D6C81A1E88BF00F583FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B9D6C91A1E88BF00F583FB /* Build configuration list for PBXNativeTarget "Demo07.1_Practise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B9D6CA1A1E88BF00F583FB /* Debug */,
+				19B9D6CB1A1E88BF00F583FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B9D6B81A1E88BF00F583FB /* Project object */;
+}

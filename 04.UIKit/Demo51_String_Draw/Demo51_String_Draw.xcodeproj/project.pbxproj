@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1992ABA01988E2E800B17735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1992AB9F1988E2E800B17735 /* Foundation.framework */; };
+		1992ABA21988E2E800B17735 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1992ABA11988E2E800B17735 /* CoreGraphics.framework */; };
+		1992ABA41988E2E800B17735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1992ABA31988E2E800B17735 /* UIKit.framework */; };
+		1992ABAA1988E2E800B17735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1992ABA81988E2E800B17735 /* InfoPlist.strings */; };
+		1992ABAC1988E2E800B17735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1992ABAB1988E2E800B17735 /* main.m */; };
+		1992ABB01988E2E800B17735 /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1992ABAF1988E2E800B17735 /* TRAppDelegate.m */; };
+		1992ABB31988E2E800B17735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1992ABB11988E2E800B17735 /* Main.storyboard */; };
+		1992ABB61988E2E800B17735 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1992ABB51988E2E800B17735 /* TRViewController.m */; };
+		1992ABB81988E2E800B17735 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1992ABB71988E2E800B17735 /* Images.xcassets */; };
+		1992ABBF1988E2E800B17735 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1992ABBE1988E2E800B17735 /* XCTest.framework */; };
+		1992ABC01988E2E800B17735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1992AB9F1988E2E800B17735 /* Foundation.framework */; };
+		1992ABC11988E2E800B17735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1992ABA31988E2E800B17735 /* UIKit.framework */; };
+		1992ABC91988E2E800B17735 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1992ABC71988E2E800B17735 /* InfoPlist.strings */; };
+		1992ABCB1988E2E800B17735 /* Demo51_String_DrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1992ABCA1988E2E800B17735 /* Demo51_String_DrawTests.m */; };
+		1992ABD61988E2F300B17735 /* TRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1992ABD51988E2F300B17735 /* TRDrawView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1992ABC21988E2E800B17735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1992AB941988E2E800B17735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1992AB9B1988E2E800B17735;
+			remoteInfo = Demo51_String_Draw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1992AB9C1988E2E800B17735 /* Demo51_String_Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo51_String_Draw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1992AB9F1988E2E800B17735 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1992ABA11988E2E800B17735 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1992ABA31988E2E800B17735 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1992ABA71988E2E800B17735 /* Demo51_String_Draw-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo51_String_Draw-Info.plist"; sourceTree = "<group>"; };
+		1992ABA91988E2E800B17735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1992ABAB1988E2E800B17735 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1992ABAD1988E2E800B17735 /* Demo51_String_Draw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo51_String_Draw-Prefix.pch"; sourceTree = "<group>"; };
+		1992ABAE1988E2E800B17735 /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
+		1992ABAF1988E2E800B17735 /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
+		1992ABB21988E2E800B17735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1992ABB41988E2E800B17735 /* TRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
+		1992ABB51988E2E800B17735 /* TRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
+		1992ABB71988E2E800B17735 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1992ABBD1988E2E800B17735 /* Demo51_String_DrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo51_String_DrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1992ABBE1988E2E800B17735 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1992ABC61988E2E800B17735 /* Demo51_String_DrawTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo51_String_DrawTests-Info.plist"; sourceTree = "<group>"; };
+		1992ABC81988E2E800B17735 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1992ABCA1988E2E800B17735 /* Demo51_String_DrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo51_String_DrawTests.m; sourceTree = "<group>"; };
+		1992ABD41988E2F300B17735 /* TRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRDrawView.h; sourceTree = "<group>"; };
+		1992ABD51988E2F300B17735 /* TRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRDrawView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1992AB991988E2E800B17735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1992ABA21988E2E800B17735 /* CoreGraphics.framework in Frameworks */,
+				1992ABA41988E2E800B17735 /* UIKit.framework in Frameworks */,
+				1992ABA01988E2E800B17735 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1992ABBA1988E2E800B17735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1992ABBF1988E2E800B17735 /* XCTest.framework in Frameworks */,
+				1992ABC11988E2E800B17735 /* UIKit.framework in Frameworks */,
+				1992ABC01988E2E800B17735 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1992AB931988E2E800B17735 = {
+			isa = PBXGroup;
+			children = (
+				1992ABA51988E2E800B17735 /* Demo51_String_Draw */,
+				1992ABC41988E2E800B17735 /* Demo51_String_DrawTests */,
+				1992AB9E1988E2E800B17735 /* Frameworks */,
+				1992AB9D1988E2E800B17735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1992AB9D1988E2E800B17735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1992AB9C1988E2E800B17735 /* Demo51_String_Draw.app */,
+				1992ABBD1988E2E800B17735 /* Demo51_String_DrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1992AB9E1988E2E800B17735 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1992AB9F1988E2E800B17735 /* Foundation.framework */,
+				1992ABA11988E2E800B17735 /* CoreGraphics.framework */,
+				1992ABA31988E2E800B17735 /* UIKit.framework */,
+				1992ABBE1988E2E800B17735 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1992ABA51988E2E800B17735 /* Demo51_String_Draw */ = {
+			isa = PBXGroup;
+			children = (
+				1992ABAE1988E2E800B17735 /* TRAppDelegate.h */,
+				1992ABAF1988E2E800B17735 /* TRAppDelegate.m */,
+				1992ABB11988E2E800B17735 /* Main.storyboard */,
+				1992ABB41988E2E800B17735 /* TRViewController.h */,
+				1992ABB51988E2E800B17735 /* TRViewController.m */,
+				1992ABD41988E2F300B17735 /* TRDrawView.h */,
+				1992ABD51988E2F300B17735 /* TRDrawView.m */,
+				1992ABB71988E2E800B17735 /* Images.xcassets */,
+				1992ABA61988E2E800B17735 /* Supporting Files */,
+			);
+			path = Demo51_String_Draw;
+			sourceTree = "<group>";
+		};
+		1992ABA61988E2E800B17735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1992ABA71988E2E800B17735 /* Demo51_String_Draw-Info.plist */,
+				1992ABA81988E2E800B17735 /* InfoPlist.strings */,
+				1992ABAB1988E2E800B17735 /* main.m */,
+				1992ABAD1988E2E800B17735 /* Demo51_String_Draw-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1992ABC41988E2E800B17735 /* Demo51_String_DrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				1992ABCA1988E2E800B17735 /* Demo51_String_DrawTests.m */,
+				1992ABC51988E2E800B17735 /* Supporting Files */,
+			);
+			path = Demo51_String_DrawTests;
+			sourceTree = "<group>";
+		};
+		1992ABC51988E2E800B17735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1992ABC61988E2E800B17735 /* Demo51_String_DrawTests-Info.plist */,
+				1992ABC71988E2E800B17735 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1992AB9B1988E2E800B17735 /* Demo51_String_Draw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1992ABCE1988E2E800B17735 /* Build configuration list for PBXNativeTarget "Demo51_String_Draw" */;
+			buildPhases = (
+				1992AB981988E2E800B17735 /* Sources */,
+				1992AB991988E2E800B17735 /* Frameworks */,
+				1992AB9A1988E2E800B17735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo51_String_Draw;
+			productName = Demo51_String_Draw;
+			productReference = 1992AB9C1988E2E800B17735 /* Demo51_String_Draw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1992ABBC1988E2E800B17735 /* Demo51_String_DrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1992ABD11988E2E800B17735 /* Build configuration list for PBXNativeTarget "Demo51_String_DrawTests" */;
+			buildPhases = (
+				1992ABB91988E2E800B17735 /* Sources */,
+				1992ABBA1988E2E800B17735 /* Frameworks */,
+				1992ABBB1988E2E800B17735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1992ABC31988E2E800B17735 /* PBXTargetDependency */,
+			);
+			name = Demo51_String_DrawTests;
+			productName = Demo51_String_DrawTests;
+			productReference = 1992ABBD1988E2E800B17735 /* Demo51_String_DrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1992AB941988E2E800B17735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MobileApp;
+				TargetAttributes = {
+					1992ABBC1988E2E800B17735 = {
+						TestTargetID = 1992AB9B1988E2E800B17735;
+					};
+				};
+			};
+			buildConfigurationList = 1992AB971988E2E800B17735 /* Build configuration list for PBXProject "Demo51_String_Draw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1992AB931988E2E800B17735;
+			productRefGroup = 1992AB9D1988E2E800B17735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1992AB9B1988E2E800B17735 /* Demo51_String_Draw */,
+				1992ABBC1988E2E800B17735 /* Demo51_String_DrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1992AB9A1988E2E800B17735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1992ABB81988E2E800B17735 /* Images.xcassets in Resources */,
+				1992ABAA1988E2E800B17735 /* InfoPlist.strings in Resources */,
+				1992ABB31988E2E800B17735 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1992ABBB1988E2E800B17735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1992ABC91988E2E800B17735 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1992AB981988E2E800B17735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1992ABB01988E2E800B17735 /* TRAppDelegate.m in Sources */,
+				1992ABAC1988E2E800B17735 /* main.m in Sources */,
+				1992ABD61988E2F300B17735 /* TRDrawView.m in Sources */,
+				1992ABB61988E2E800B17735 /* TRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1992ABB91988E2E800B17735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1992ABCB1988E2E800B17735 /* Demo51_String_DrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1992ABC31988E2E800B17735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1992AB9B1988E2E800B17735 /* Demo51_String_Draw */;
+			targetProxy = 1992ABC21988E2E800B17735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1992ABA81988E2E800B17735 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1992ABA91988E2E800B17735 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1992ABB11988E2E800B17735 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1992ABB21988E2E800B17735 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1992ABC71988E2E800B17735 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1992ABC81988E2E800B17735 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1992ABCC1988E2E800B17735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1992ABCD1988E2E800B17735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1992ABCF1988E2E800B17735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo51_String_Draw/Demo51_String_Draw-Prefix.pch";
+				INFOPLIST_FILE = "Demo51_String_Draw/Demo51_String_Draw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1992ABD01988E2E800B17735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo51_String_Draw/Demo51_String_Draw-Prefix.pch";
+				INFOPLIST_FILE = "Demo51_String_Draw/Demo51_String_Draw-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1992ABD21988E2E800B17735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo51_String_Draw.app/Demo51_String_Draw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo51_String_Draw/Demo51_String_Draw-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo51_String_DrawTests/Demo51_String_DrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1992ABD31988E2E800B17735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo51_String_Draw.app/Demo51_String_Draw";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo51_String_Draw/Demo51_String_Draw-Prefix.pch";
+				INFOPLIST_FILE = "Demo51_String_DrawTests/Demo51_String_DrawTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1992AB971988E2E800B17735 /* Build configuration list for PBXProject "Demo51_String_Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1992ABCC1988E2E800B17735 /* Debug */,
+				1992ABCD1988E2E800B17735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1992ABCE1988E2E800B17735 /* Build configuration list for PBXNativeTarget "Demo51_String_Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1992ABCF1988E2E800B17735 /* Debug */,
+				1992ABD01988E2E800B17735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1992ABD11988E2E800B17735 /* Build configuration list for PBXNativeTarget "Demo51_String_DrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1992ABD21988E2E800B17735 /* Debug */,
+				1992ABD31988E2E800B17735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1992AB941988E2E800B17735 /* Project object */;
+}

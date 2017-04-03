@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19A414DC19977EC0006865F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A414DB19977EC0006865F2 /* Foundation.framework */; };
+		19A414DE19977EC0006865F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A414DD19977EC0006865F2 /* CoreGraphics.framework */; };
+		19A414E019977EC0006865F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A414DF19977EC0006865F2 /* UIKit.framework */; };
+		19A414E619977EC0006865F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19A414E419977EC0006865F2 /* InfoPlist.strings */; };
+		19A414E819977EC0006865F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A414E719977EC0006865F2 /* main.m */; };
+		19A414EC19977EC0006865F2 /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A414EB19977EC0006865F2 /* TRAppDelegate.m */; };
+		19A414F419977EC0006865F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A414F319977EC0006865F2 /* Images.xcassets */; };
+		19A414FB19977EC0006865F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A414FA19977EC0006865F2 /* XCTest.framework */; };
+		19A414FC19977EC0006865F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A414DB19977EC0006865F2 /* Foundation.framework */; };
+		19A414FD19977EC0006865F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A414DF19977EC0006865F2 /* UIKit.framework */; };
+		19A4150519977EC0006865F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19A4150319977EC0006865F2 /* InfoPlist.strings */; };
+		19A4150719977EC0006865F2 /* Demo4_PlantsVSZombies_2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4150619977EC0006865F2 /* Demo4_PlantsVSZombies_2_0Tests.m */; };
+		19A4151119977EEB006865F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A4151019977EEB006865F2 /* Main.storyboard */; };
+		19A4152619977EFE006865F2 /* TRIcePea.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4151319977EFE006865F2 /* TRIcePea.m */; };
+		19A4152719977EFE006865F2 /* TRNut.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4151519977EFE006865F2 /* TRNut.m */; };
+		19A4152819977EFE006865F2 /* TRPea.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4151719977EFE006865F2 /* TRPea.m */; };
+		19A4152919977EFE006865F2 /* TRPlant.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4151919977EFE006865F2 /* TRPlant.m */; };
+		19A4152A19977EFE006865F2 /* TRSunFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4151B19977EFE006865F2 /* TRSunFlower.m */; };
+		19A4152B19977EFE006865F2 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4151D19977EFE006865F2 /* TRViewController.m */; };
+		19A4152C19977EFE006865F2 /* TRZombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4151F19977EFE006865F2 /* TRZombie.m */; };
+		19A4152D19977EFE006865F2 /* TRZombieA.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4152119977EFE006865F2 /* TRZombieA.m */; };
+		19A4152E19977EFE006865F2 /* TRZombieB.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4152319977EFE006865F2 /* TRZombieB.m */; };
+		19A4152F19977EFE006865F2 /* TRZombieC.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A4152519977EFE006865F2 /* TRZombieC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19A414FE19977EC0006865F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A414D019977EC0006865F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A414D719977EC0006865F2;
+			remoteInfo = Demo4_PlantsVSZombies_2.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19A414D819977EC0006865F2 /* Demo4_PlantsVSZombies_2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo4_PlantsVSZombies_2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A414DB19977EC0006865F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19A414DD19977EC0006865F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19A414DF19977EC0006865F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19A414E319977EC0006865F2 /* Demo4_PlantsVSZombies_2.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo4_PlantsVSZombies_2.0-Info.plist"; sourceTree = "<group>"; };
+		19A414E519977EC0006865F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19A414E719977EC0006865F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19A414E919977EC0006865F2 /* Demo4_PlantsVSZombies_2.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo4_PlantsVSZombies_2.0-Prefix.pch"; sourceTree = "<group>"; };
+		19A414EA19977EC0006865F2 /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
+		19A414EB19977EC0006865F2 /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
+		19A414F319977EC0006865F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19A414F919977EC0006865F2 /* Demo4_PlantsVSZombies_2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo4_PlantsVSZombies_2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A414FA19977EC0006865F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		19A4150219977EC0006865F2 /* Demo4_PlantsVSZombies_2.0Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo4_PlantsVSZombies_2.0Tests-Info.plist"; sourceTree = "<group>"; };
+		19A4150419977EC0006865F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19A4150619977EC0006865F2 /* Demo4_PlantsVSZombies_2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4_PlantsVSZombies_2_0Tests.m; sourceTree = "<group>"; };
+		19A4151019977EEB006865F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		19A4151219977EFE006865F2 /* TRIcePea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRIcePea.h; sourceTree = "<group>"; };
+		19A4151319977EFE006865F2 /* TRIcePea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRIcePea.m; sourceTree = "<group>"; };
+		19A4151419977EFE006865F2 /* TRNut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRNut.h; sourceTree = "<group>"; };
+		19A4151519977EFE006865F2 /* TRNut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRNut.m; sourceTree = "<group>"; };
+		19A4151619977EFE006865F2 /* TRPea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPea.h; sourceTree = "<group>"; };
+		19A4151719977EFE006865F2 /* TRPea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPea.m; sourceTree = "<group>"; };
+		19A4151819977EFE006865F2 /* TRPlant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRPlant.h; sourceTree = "<group>"; };
+		19A4151919977EFE006865F2 /* TRPlant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRPlant.m; sourceTree = "<group>"; };
+		19A4151A19977EFE006865F2 /* TRSunFlower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSunFlower.h; sourceTree = "<group>"; };
+		19A4151B19977EFE006865F2 /* TRSunFlower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSunFlower.m; sourceTree = "<group>"; };
+		19A4151C19977EFE006865F2 /* TRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
+		19A4151D19977EFE006865F2 /* TRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
+		19A4151E19977EFE006865F2 /* TRZombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZombie.h; sourceTree = "<group>"; };
+		19A4151F19977EFE006865F2 /* TRZombie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZombie.m; sourceTree = "<group>"; };
+		19A4152019977EFE006865F2 /* TRZombieA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZombieA.h; sourceTree = "<group>"; };
+		19A4152119977EFE006865F2 /* TRZombieA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZombieA.m; sourceTree = "<group>"; };
+		19A4152219977EFE006865F2 /* TRZombieB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZombieB.h; sourceTree = "<group>"; };
+		19A4152319977EFE006865F2 /* TRZombieB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZombieB.m; sourceTree = "<group>"; };
+		19A4152419977EFE006865F2 /* TRZombieC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZombieC.h; sourceTree = "<group>"; };
+		19A4152519977EFE006865F2 /* TRZombieC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZombieC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A414D519977EC0006865F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A414DE19977EC0006865F2 /* CoreGraphics.framework in Frameworks */,
+				19A414E019977EC0006865F2 /* UIKit.framework in Frameworks */,
+				19A414DC19977EC0006865F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A414F619977EC0006865F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A414FB19977EC0006865F2 /* XCTest.framework in Frameworks */,
+				19A414FD19977EC0006865F2 /* UIKit.framework in Frameworks */,
+				19A414FC19977EC0006865F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A414CF19977EC0006865F2 = {
+			isa = PBXGroup;
+			children = (
+				19A414E119977EC0006865F2 /* Demo4_PlantsVSZombies_2.0 */,
+				19A4150019977EC0006865F2 /* Demo4_PlantsVSZombies_2.0Tests */,
+				19A414DA19977EC0006865F2 /* Frameworks */,
+				19A414D919977EC0006865F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19A414D919977EC0006865F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A414D819977EC0006865F2 /* Demo4_PlantsVSZombies_2.0.app */,
+				19A414F919977EC0006865F2 /* Demo4_PlantsVSZombies_2.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A414DA19977EC0006865F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19A414DB19977EC0006865F2 /* Foundation.framework */,
+				19A414DD19977EC0006865F2 /* CoreGraphics.framework */,
+				19A414DF19977EC0006865F2 /* UIKit.framework */,
+				19A414FA19977EC0006865F2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19A414E119977EC0006865F2 /* Demo4_PlantsVSZombies_2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				19A4151019977EEB006865F2 /* Main.storyboard */,
+				19A4151C19977EFE006865F2 /* TRViewController.h */,
+				19A4151D19977EFE006865F2 /* TRViewController.m */,
+				19A4153019977F06006865F2 /* Plants */,
+				19A4153119977F1E006865F2 /* Zombies */,
+				19A414F319977EC0006865F2 /* Images.xcassets */,
+				19A414E219977EC0006865F2 /* Supporting Files */,
+			);
+			path = Demo4_PlantsVSZombies_2.0;
+			sourceTree = "<group>";
+		};
+		19A414E219977EC0006865F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19A414EA19977EC0006865F2 /* TRAppDelegate.h */,
+				19A414EB19977EC0006865F2 /* TRAppDelegate.m */,
+				19A414E319977EC0006865F2 /* Demo4_PlantsVSZombies_2.0-Info.plist */,
+				19A414E419977EC0006865F2 /* InfoPlist.strings */,
+				19A414E719977EC0006865F2 /* main.m */,
+				19A414E919977EC0006865F2 /* Demo4_PlantsVSZombies_2.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19A4150019977EC0006865F2 /* Demo4_PlantsVSZombies_2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				19A4150619977EC0006865F2 /* Demo4_PlantsVSZombies_2_0Tests.m */,
+				19A4150119977EC0006865F2 /* Supporting Files */,
+			);
+			path = Demo4_PlantsVSZombies_2.0Tests;
+			sourceTree = "<group>";
+		};
+		19A4150119977EC0006865F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19A4150219977EC0006865F2 /* Demo4_PlantsVSZombies_2.0Tests-Info.plist */,
+				19A4150319977EC0006865F2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19A4153019977F06006865F2 /* Plants */ = {
+			isa = PBXGroup;
+			children = (
+				19A4151819977EFE006865F2 /* TRPlant.h */,
+				19A4151919977EFE006865F2 /* TRPlant.m */,
+				19A4151A19977EFE006865F2 /* TRSunFlower.h */,
+				19A4151B19977EFE006865F2 /* TRSunFlower.m */,
+				19A4151619977EFE006865F2 /* TRPea.h */,
+				19A4151719977EFE006865F2 /* TRPea.m */,
+				19A4151219977EFE006865F2 /* TRIcePea.h */,
+				19A4151319977EFE006865F2 /* TRIcePea.m */,
+				19A4151419977EFE006865F2 /* TRNut.h */,
+				19A4151519977EFE006865F2 /* TRNut.m */,
+			);
+			name = Plants;
+			sourceTree = "<group>";
+		};
+		19A4153119977F1E006865F2 /* Zombies */ = {
+			isa = PBXGroup;
+			children = (
+				19A4151E19977EFE006865F2 /* TRZombie.h */,
+				19A4151F19977EFE006865F2 /* TRZombie.m */,
+				19A4152019977EFE006865F2 /* TRZombieA.h */,
+				19A4152119977EFE006865F2 /* TRZombieA.m */,
+				19A4152219977EFE006865F2 /* TRZombieB.h */,
+				19A4152319977EFE006865F2 /* TRZombieB.m */,
+				19A4152419977EFE006865F2 /* TRZombieC.h */,
+				19A4152519977EFE006865F2 /* TRZombieC.m */,
+			);
+			name = Zombies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A414D719977EC0006865F2 /* Demo4_PlantsVSZombies_2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A4150A19977EC0006865F2 /* Build configuration list for PBXNativeTarget "Demo4_PlantsVSZombies_2.0" */;
+			buildPhases = (
+				19A414D419977EC0006865F2 /* Sources */,
+				19A414D519977EC0006865F2 /* Frameworks */,
+				19A414D619977EC0006865F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo4_PlantsVSZombies_2.0;
+			productName = Demo4_PlantsVSZombies_2.0;
+			productReference = 19A414D819977EC0006865F2 /* Demo4_PlantsVSZombies_2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19A414F819977EC0006865F2 /* Demo4_PlantsVSZombies_2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A4150D19977EC0006865F2 /* Build configuration list for PBXNativeTarget "Demo4_PlantsVSZombies_2.0Tests" */;
+			buildPhases = (
+				19A414F519977EC0006865F2 /* Sources */,
+				19A414F619977EC0006865F2 /* Frameworks */,
+				19A414F719977EC0006865F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A414FF19977EC0006865F2 /* PBXTargetDependency */,
+			);
+			name = Demo4_PlantsVSZombies_2.0Tests;
+			productName = Demo4_PlantsVSZombies_2.0Tests;
+			productReference = 19A414F919977EC0006865F2 /* Demo4_PlantsVSZombies_2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19A414D019977EC0006865F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MobileApp;
+				TargetAttributes = {
+					19A414F819977EC0006865F2 = {
+						TestTargetID = 19A414D719977EC0006865F2;
+					};
+				};
+			};
+			buildConfigurationList = 19A414D319977EC0006865F2 /* Build configuration list for PBXProject "Demo4_PlantsVSZombies_2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19A414CF19977EC0006865F2;
+			productRefGroup = 19A414D919977EC0006865F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A414D719977EC0006865F2 /* Demo4_PlantsVSZombies_2.0 */,
+				19A414F819977EC0006865F2 /* Demo4_PlantsVSZombies_2.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A414D619977EC0006865F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A4151119977EEB006865F2 /* Main.storyboard in Resources */,
+				19A414F419977EC0006865F2 /* Images.xcassets in Resources */,
+				19A414E619977EC0006865F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A414F719977EC0006865F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A4150519977EC0006865F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A414D419977EC0006865F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A414EC19977EC0006865F2 /* TRAppDelegate.m in Sources */,
+				19A4152919977EFE006865F2 /* TRPlant.m in Sources */,
+				19A4152B19977EFE006865F2 /* TRViewController.m in Sources */,
+				19A4152619977EFE006865F2 /* TRIcePea.m in Sources */,
+				19A414E819977EC0006865F2 /* main.m in Sources */,
+				19A4152D19977EFE006865F2 /* TRZombieA.m in Sources */,
+				19A4152E19977EFE006865F2 /* TRZombieB.m in Sources */,
+				19A4152A19977EFE006865F2 /* TRSunFlower.m in Sources */,
+				19A4152819977EFE006865F2 /* TRPea.m in Sources */,
+				19A4152F19977EFE006865F2 /* TRZombieC.m in Sources */,
+				19A4152719977EFE006865F2 /* TRNut.m in Sources */,
+				19A4152C19977EFE006865F2 /* TRZombie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A414F519977EC0006865F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A4150719977EC0006865F2 /* Demo4_PlantsVSZombies_2_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19A414FF19977EC0006865F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A414D719977EC0006865F2 /* Demo4_PlantsVSZombies_2.0 */;
+			targetProxy = 19A414FE19977EC0006865F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19A414E419977EC0006865F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A414E519977EC0006865F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19A4150319977EC0006865F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A4150419977EC0006865F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19A4150819977EC0006865F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19A4150919977EC0006865F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19A4150B19977EC0006865F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo4_PlantsVSZombies_2.0/Demo4_PlantsVSZombies_2.0-Prefix.pch";
+				INFOPLIST_FILE = "Demo4_PlantsVSZombies_2.0/Demo4_PlantsVSZombies_2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19A4150C19977EC0006865F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo4_PlantsVSZombies_2.0/Demo4_PlantsVSZombies_2.0-Prefix.pch";
+				INFOPLIST_FILE = "Demo4_PlantsVSZombies_2.0/Demo4_PlantsVSZombies_2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19A4150E19977EC0006865F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo4_PlantsVSZombies_2.0.app/Demo4_PlantsVSZombies_2.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo4_PlantsVSZombies_2.0/Demo4_PlantsVSZombies_2.0-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo4_PlantsVSZombies_2.0Tests/Demo4_PlantsVSZombies_2.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		19A4150F19977EC0006865F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo4_PlantsVSZombies_2.0.app/Demo4_PlantsVSZombies_2.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo4_PlantsVSZombies_2.0/Demo4_PlantsVSZombies_2.0-Prefix.pch";
+				INFOPLIST_FILE = "Demo4_PlantsVSZombies_2.0Tests/Demo4_PlantsVSZombies_2.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A414D319977EC0006865F2 /* Build configuration list for PBXProject "Demo4_PlantsVSZombies_2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A4150819977EC0006865F2 /* Debug */,
+				19A4150919977EC0006865F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A4150A19977EC0006865F2 /* Build configuration list for PBXNativeTarget "Demo4_PlantsVSZombies_2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A4150B19977EC0006865F2 /* Debug */,
+				19A4150C19977EC0006865F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A4150D19977EC0006865F2 /* Build configuration list for PBXNativeTarget "Demo4_PlantsVSZombies_2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A4150E19977EC0006865F2 /* Debug */,
+				19A4150F19977EC0006865F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19A414D019977EC0006865F2 /* Project object */;
+}

@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1922D580198B68CF0028E4CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1922D57F198B68CF0028E4CB /* Foundation.framework */; };
+		1922D582198B68CF0028E4CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1922D581198B68CF0028E4CB /* CoreGraphics.framework */; };
+		1922D584198B68CF0028E4CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1922D583198B68CF0028E4CB /* UIKit.framework */; };
+		1922D58A198B68CF0028E4CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1922D588198B68CF0028E4CB /* InfoPlist.strings */; };
+		1922D58C198B68CF0028E4CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1922D58B198B68CF0028E4CB /* main.m */; };
+		1922D590198B68CF0028E4CB /* TRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1922D58F198B68CF0028E4CB /* TRAppDelegate.m */; };
+		1922D593198B68CF0028E4CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1922D591198B68CF0028E4CB /* Main.storyboard */; };
+		1922D596198B68CF0028E4CB /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1922D595198B68CF0028E4CB /* TRViewController.m */; };
+		1922D598198B68CF0028E4CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1922D597198B68CF0028E4CB /* Images.xcassets */; };
+		1922D59F198B68CF0028E4CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1922D59E198B68CF0028E4CB /* XCTest.framework */; };
+		1922D5A0198B68CF0028E4CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1922D57F198B68CF0028E4CB /* Foundation.framework */; };
+		1922D5A1198B68CF0028E4CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1922D583198B68CF0028E4CB /* UIKit.framework */; };
+		1922D5A9198B68CF0028E4CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1922D5A7198B68CF0028E4CB /* InfoPlist.strings */; };
+		1922D5AB198B68CF0028E4CB /* Demo60_tintColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1922D5AA198B68CF0028E4CB /* Demo60_tintColorTests.m */; };
+		1922D5B7198B698C0028E4CB /* TRMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1922D5B5198B698C0028E4CB /* TRMyViewController.m */; };
+		1922D5B8198B698C0028E4CB /* TRMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1922D5B6198B698C0028E4CB /* TRMyViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1922D5A2198B68CF0028E4CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1922D574198B68CF0028E4CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1922D57B198B68CF0028E4CB;
+			remoteInfo = Demo60_tintColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1922D57C198B68CF0028E4CB /* Demo60_tintColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo60_tintColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1922D57F198B68CF0028E4CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1922D581198B68CF0028E4CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1922D583198B68CF0028E4CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1922D587198B68CF0028E4CB /* Demo60_tintColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo60_tintColor-Info.plist"; sourceTree = "<group>"; };
+		1922D589198B68CF0028E4CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1922D58B198B68CF0028E4CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1922D58D198B68CF0028E4CB /* Demo60_tintColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo60_tintColor-Prefix.pch"; sourceTree = "<group>"; };
+		1922D58E198B68CF0028E4CB /* TRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAppDelegate.h; sourceTree = "<group>"; };
+		1922D58F198B68CF0028E4CB /* TRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAppDelegate.m; sourceTree = "<group>"; };
+		1922D592198B68CF0028E4CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1922D594198B68CF0028E4CB /* TRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
+		1922D595198B68CF0028E4CB /* TRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
+		1922D597198B68CF0028E4CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1922D59D198B68CF0028E4CB /* Demo60_tintColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo60_tintColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1922D59E198B68CF0028E4CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1922D5A6198B68CF0028E4CB /* Demo60_tintColorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo60_tintColorTests-Info.plist"; sourceTree = "<group>"; };
+		1922D5A8198B68CF0028E4CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1922D5AA198B68CF0028E4CB /* Demo60_tintColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo60_tintColorTests.m; sourceTree = "<group>"; };
+		1922D5B4198B698C0028E4CB /* TRMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRMyViewController.h; sourceTree = "<group>"; };
+		1922D5B5198B698C0028E4CB /* TRMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRMyViewController.m; sourceTree = "<group>"; };
+		1922D5B6198B698C0028E4CB /* TRMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRMyViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1922D579198B68CF0028E4CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1922D582198B68CF0028E4CB /* CoreGraphics.framework in Frameworks */,
+				1922D584198B68CF0028E4CB /* UIKit.framework in Frameworks */,
+				1922D580198B68CF0028E4CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1922D59A198B68CF0028E4CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1922D59F198B68CF0028E4CB /* XCTest.framework in Frameworks */,
+				1922D5A1198B68CF0028E4CB /* UIKit.framework in Frameworks */,
+				1922D5A0198B68CF0028E4CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1922D573198B68CF0028E4CB = {
+			isa = PBXGroup;
+			children = (
+				1922D585198B68CF0028E4CB /* Demo60_tintColor */,
+				1922D5A4198B68CF0028E4CB /* Demo60_tintColorTests */,
+				1922D57E198B68CF0028E4CB /* Frameworks */,
+				1922D57D198B68CF0028E4CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1922D57D198B68CF0028E4CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1922D57C198B68CF0028E4CB /* Demo60_tintColor.app */,
+				1922D59D198B68CF0028E4CB /* Demo60_tintColorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1922D57E198B68CF0028E4CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1922D57F198B68CF0028E4CB /* Foundation.framework */,
+				1922D581198B68CF0028E4CB /* CoreGraphics.framework */,
+				1922D583198B68CF0028E4CB /* UIKit.framework */,
+				1922D59E198B68CF0028E4CB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1922D585198B68CF0028E4CB /* Demo60_tintColor */ = {
+			isa = PBXGroup;
+			children = (
+				1922D58E198B68CF0028E4CB /* TRAppDelegate.h */,
+				1922D58F198B68CF0028E4CB /* TRAppDelegate.m */,
+				1922D591198B68CF0028E4CB /* Main.storyboard */,
+				1922D594198B68CF0028E4CB /* TRViewController.h */,
+				1922D595198B68CF0028E4CB /* TRViewController.m */,
+				1922D5B4198B698C0028E4CB /* TRMyViewController.h */,
+				1922D5B5198B698C0028E4CB /* TRMyViewController.m */,
+				1922D5B6198B698C0028E4CB /* TRMyViewController.xib */,
+				1922D597198B68CF0028E4CB /* Images.xcassets */,
+				1922D586198B68CF0028E4CB /* Supporting Files */,
+			);
+			path = Demo60_tintColor;
+			sourceTree = "<group>";
+		};
+		1922D586198B68CF0028E4CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1922D587198B68CF0028E4CB /* Demo60_tintColor-Info.plist */,
+				1922D588198B68CF0028E4CB /* InfoPlist.strings */,
+				1922D58B198B68CF0028E4CB /* main.m */,
+				1922D58D198B68CF0028E4CB /* Demo60_tintColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1922D5A4198B68CF0028E4CB /* Demo60_tintColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1922D5AA198B68CF0028E4CB /* Demo60_tintColorTests.m */,
+				1922D5A5198B68CF0028E4CB /* Supporting Files */,
+			);
+			path = Demo60_tintColorTests;
+			sourceTree = "<group>";
+		};
+		1922D5A5198B68CF0028E4CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1922D5A6198B68CF0028E4CB /* Demo60_tintColorTests-Info.plist */,
+				1922D5A7198B68CF0028E4CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1922D57B198B68CF0028E4CB /* Demo60_tintColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1922D5AE198B68CF0028E4CB /* Build configuration list for PBXNativeTarget "Demo60_tintColor" */;
+			buildPhases = (
+				1922D578198B68CF0028E4CB /* Sources */,
+				1922D579198B68CF0028E4CB /* Frameworks */,
+				1922D57A198B68CF0028E4CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo60_tintColor;
+			productName = Demo60_tintColor;
+			productReference = 1922D57C198B68CF0028E4CB /* Demo60_tintColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1922D59C198B68CF0028E4CB /* Demo60_tintColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1922D5B1198B68CF0028E4CB /* Build configuration list for PBXNativeTarget "Demo60_tintColorTests" */;
+			buildPhases = (
+				1922D599198B68CF0028E4CB /* Sources */,
+				1922D59A198B68CF0028E4CB /* Frameworks */,
+				1922D59B198B68CF0028E4CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1922D5A3198B68CF0028E4CB /* PBXTargetDependency */,
+			);
+			name = Demo60_tintColorTests;
+			productName = Demo60_tintColorTests;
+			productReference = 1922D59D198B68CF0028E4CB /* Demo60_tintColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1922D574198B68CF0028E4CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MobileApp;
+				TargetAttributes = {
+					1922D59C198B68CF0028E4CB = {
+						TestTargetID = 1922D57B198B68CF0028E4CB;
+					};
+				};
+			};
+			buildConfigurationList = 1922D577198B68CF0028E4CB /* Build configuration list for PBXProject "Demo60_tintColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1922D573198B68CF0028E4CB;
+			productRefGroup = 1922D57D198B68CF0028E4CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1922D57B198B68CF0028E4CB /* Demo60_tintColor */,
+				1922D59C198B68CF0028E4CB /* Demo60_tintColorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1922D57A198B68CF0028E4CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1922D598198B68CF0028E4CB /* Images.xcassets in Resources */,
+				1922D58A198B68CF0028E4CB /* InfoPlist.strings in Resources */,
+				1922D5B8198B698C0028E4CB /* TRMyViewController.xib in Resources */,
+				1922D593198B68CF0028E4CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1922D59B198B68CF0028E4CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1922D5A9198B68CF0028E4CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1922D578198B68CF0028E4CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1922D590198B68CF0028E4CB /* TRAppDelegate.m in Sources */,
+				1922D58C198B68CF0028E4CB /* main.m in Sources */,
+				1922D5B7198B698C0028E4CB /* TRMyViewController.m in Sources */,
+				1922D596198B68CF0028E4CB /* TRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1922D599198B68CF0028E4CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1922D5AB198B68CF0028E4CB /* Demo60_tintColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1922D5A3198B68CF0028E4CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1922D57B198B68CF0028E4CB /* Demo60_tintColor */;
+			targetProxy = 1922D5A2198B68CF0028E4CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1922D588198B68CF0028E4CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1922D589198B68CF0028E4CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1922D591198B68CF0028E4CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1922D592198B68CF0028E4CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1922D5A7198B68CF0028E4CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1922D5A8198B68CF0028E4CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1922D5AC198B68CF0028E4CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1922D5AD198B68CF0028E4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1922D5AF198B68CF0028E4CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo60_tintColor/Demo60_tintColor-Prefix.pch";
+				INFOPLIST_FILE = "Demo60_tintColor/Demo60_tintColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1922D5B0198B68CF0028E4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo60_tintColor/Demo60_tintColor-Prefix.pch";
+				INFOPLIST_FILE = "Demo60_tintColor/Demo60_tintColor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1922D5B2198B68CF0028E4CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo60_tintColor.app/Demo60_tintColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo60_tintColor/Demo60_tintColor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Demo60_tintColorTests/Demo60_tintColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1922D5B3198B68CF0028E4CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo60_tintColor.app/Demo60_tintColor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo60_tintColor/Demo60_tintColor-Prefix.pch";
+				INFOPLIST_FILE = "Demo60_tintColorTests/Demo60_tintColorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1922D577198B68CF0028E4CB /* Build configuration list for PBXProject "Demo60_tintColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1922D5AC198B68CF0028E4CB /* Debug */,
+				1922D5AD198B68CF0028E4CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1922D5AE198B68CF0028E4CB /* Build configuration list for PBXNativeTarget "Demo60_tintColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1922D5AF198B68CF0028E4CB /* Debug */,
+				1922D5B0198B68CF0028E4CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1922D5B1198B68CF0028E4CB /* Build configuration list for PBXNativeTarget "Demo60_tintColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1922D5B2198B68CF0028E4CB /* Debug */,
+				1922D5B3198B68CF0028E4CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1922D574198B68CF0028E4CB /* Project object */;
+}
