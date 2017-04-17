@@ -15,4 +15,6 @@
 
 -(void)setAge:(int)newAge;
 -(int)getAge;
+-(void)test;
+
 @end

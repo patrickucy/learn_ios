@@ -20,4 +20,7 @@
 {
 	age = newAge;  //这里就会出现重名了，虽然你的意图数参数传给成员变量
 }
+- (void)test {
+    NSLog(@"hello world");
+}
 @end

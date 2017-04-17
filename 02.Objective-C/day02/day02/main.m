@@ -44,17 +44,10 @@ int main(int argc, const char * argv[])
 		 
 		 */
 		
-		Student3* stu = [Student3 allc];
+		Student3* stu = [Student3 alloc];
 		//stu.age 无法访问实例变量
-		int age = [stu test];//但是可以通过这种间接的方式（方法）访问数据，
+		[[stu init] test];//但是可以通过这种间接的方式（方法）访问数据，
  		
-		
-		
-		
-		
-		
-		
-		
 		
 		
 	}
