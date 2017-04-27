@@ -61,8 +61,8 @@
 	self.myLabel.backgroundColor = [UIColor redColor];
 	self.myLabel.text = [[NSDate date] description];
 	UILabel *newLabel = [[UILabel alloc] init];
-	newLabel.frame =CGRectMake(90, 200, 200, 60);
-	newLabel.text= @"hello";
+	newLabel.frame = CGRectMake(90, 200, 200, 60);
+	newLabel.text = @"hello";
 	[self.view addSubview:newLabel];
 	
 	

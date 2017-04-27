@@ -54,10 +54,6 @@
 	fixedSpaceRight.width = 20;
 	
 	self.toolbarItems = @[fixedSpaceLeft,buttonRewind,flexibaleButton,buttonPlay,flexibaleButton,buttonFastForward,fixedSpaceRight];
-	
-	
-	
-	
 }
 
 -(void)add:(id)sender

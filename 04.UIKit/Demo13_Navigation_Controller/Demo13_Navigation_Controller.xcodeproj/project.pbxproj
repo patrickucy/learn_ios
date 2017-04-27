@@ -20,9 +20,9 @@
 		19A22578195A9C5C00EC1C81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19A22576195A9C5C00EC1C81 /* InfoPlist.strings */; };
 		19A2257A195A9C5C00EC1C81 /* Demo13_Navigation_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A22579195A9C5C00EC1C81 /* Demo13_Navigation_ControllerTests.m */; };
 		19A22586195A9CE300EC1C81 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A22584195A9CE300EC1C81 /* TRViewController.m */; };
-		19A22587195A9CE300EC1C81 /* TRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A22585195A9CE300EC1C81 /* TRViewController.xib */; };
 		19A2258B195AAA2900EC1C81 /* TRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A22589195AAA2900EC1C81 /* TRSecondViewController.m */; };
 		19A2258C195AAA2900EC1C81 /* TRSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A2258A195AAA2900EC1C81 /* TRSecondViewController.xib */; };
+		CD0B39691EAC27E2000AC89E /* TRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A22585195A9CE300EC1C81 /* TRViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,7 +239,7 @@
 			files = (
 				19A2258C195AAA2900EC1C81 /* TRSecondViewController.xib in Resources */,
 				19A22567195A9C5C00EC1C81 /* Images.xcassets in Resources */,
-				19A22587195A9CE300EC1C81 /* TRViewController.xib in Resources */,
+				CD0B39691EAC27E2000AC89E /* TRViewController.xib in Resources */,
 				19A22559195A9C5C00EC1C81 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +459,7 @@
 				19A2257F195A9C5C00EC1C81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19A22580195A9C5C00EC1C81 /* Build configuration list for PBXNativeTarget "Demo13_Navigation_ControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +468,7 @@
 				19A22582195A9C5C00EC1C81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

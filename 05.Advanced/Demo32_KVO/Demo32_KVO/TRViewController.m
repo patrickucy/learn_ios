@@ -23,6 +23,7 @@
 	mouse.delegate = self;
 	//这样就监听了老鼠的 age 属性,当 age 发生改变的时候就会触发方法
 	[mouse addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];
+    
 	
 }
 

@@ -463,6 +463,7 @@
 				19FF63F519992B7500DD312C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19FF63F619992B7500DD312C /* Build configuration list for PBXNativeTarget "Demo10_Storyboard_PracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +472,7 @@
 				19FF63F819992B7500DD312C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

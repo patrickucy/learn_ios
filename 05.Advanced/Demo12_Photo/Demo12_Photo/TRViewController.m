@@ -53,7 +53,7 @@
 	cell.textLabel.text = album.name;
 	UIImage *image = [UIImage imageWithContentsOfFile:[album.imagePaths lastObject]];
 	cell.imageView.image = image;
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"(%d)",album.imagePaths.count];
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"(%lu)",(unsigned long)album.imagePaths.count];
 	return cell;
 }
 

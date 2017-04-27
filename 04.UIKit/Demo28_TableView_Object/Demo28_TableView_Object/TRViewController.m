@@ -60,7 +60,7 @@
 		cell.detailTextLabel.text = self.contact.name;
 	} else if (indexPath.section == 0 && indexPath.row == 1) {
 		cell.textLabel.text = @"Age";
-		cell.detailTextLabel.text = [NSString stringWithFormat:@"%d",self.contact.age];
+		cell.detailTextLabel.text = [NSString stringWithFormat:@"%ld",(long)self.contact.age];
 	} else if (indexPath.section == 0 && indexPath.row == 2) {
 		cell.textLabel.text = @"Phone";
 		cell.detailTextLabel.text = self.contact.phoneNumber;

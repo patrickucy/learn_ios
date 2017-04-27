@@ -67,7 +67,7 @@ int main(int argc, const char * argv[])
 		[college2.classes addObject:class4];
 		
 		TRUniversity *university = [[TRUniversity alloc] init];
-		university.name = @"University of California, Santa Cruz";
+		university.name = @"University";
 		[university.colleges addObject:college1];
 		[university.colleges addObject:college2];
 		

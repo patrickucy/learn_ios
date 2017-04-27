@@ -57,7 +57,7 @@
 	
 	TRArea *area = self.areas[indexPath.row];
 	cell.textLabel.text = area.name;
-	cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", area.population];
+	cell.detailTextLabel.text = [NSString stringWithFormat:@"%ld", (long)area.population];
 	
 	return cell;
 }

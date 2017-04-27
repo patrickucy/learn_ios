@@ -15,7 +15,7 @@
 {
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-	TRViewController *initialViewController = [[TRViewController alloc] initWithNibName:@"TRTableViewController" bundle:nil];
+	TRViewController *initialViewController = [[TRViewController alloc] initWithNibName:@"TRViewController" bundle:nil];
 	
 	initialViewController.names = @[@"samsung",@"windows",@"nokia",@"moto",@"apple"];
 	

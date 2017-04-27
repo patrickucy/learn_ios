@@ -74,7 +74,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {;
-	NSLog(@"row:%d",indexPath.row);
+	NSLog(@"row:%ld",(long)indexPath.row);
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -107,7 +107,7 @@
 	
 	
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-		NSLog(@"delete:%d",indexPath.row);
+		NSLog(@"delete:%ld",(long)indexPath.row);
         // Delete the row from the data source
 		//删除 M 层
 		[self.memos removeObjectAtIndex:indexPath.row];

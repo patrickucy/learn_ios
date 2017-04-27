@@ -208,6 +208,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = MobileApp;
 				TargetAttributes = {
+					1992A8731987854000B17735 = {
+						DevelopmentTeam = 623BG94NR9;
+					};
 					1992A88E1987854000B17735 = {
 						TestTargetID = 1992A8731987854000B17735;
 					};
@@ -378,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 623BG94NR9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demo38_TabBar/Demo38_TabBar-Prefix.pch";
 				INFOPLIST_FILE = "Demo38_TabBar/Demo38_TabBar-Info.plist";
@@ -391,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 623BG94NR9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demo38_TabBar/Demo38_TabBar-Prefix.pch";
 				INFOPLIST_FILE = "Demo38_TabBar/Demo38_TabBar-Info.plist";
@@ -458,6 +463,7 @@
 				1992A8A21987854000B17735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1992A8A31987854000B17735 /* Build configuration list for PBXNativeTarget "Demo38_TabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +472,7 @@
 				1992A8A51987854000B17735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

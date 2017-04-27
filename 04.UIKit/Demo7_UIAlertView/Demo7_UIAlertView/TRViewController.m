@@ -10,6 +10,7 @@
 
 @interface TRViewController () <UIAlertViewDelegate>
 
+
 @end
 
 @implementation TRViewController
@@ -23,6 +24,7 @@
 	
 	[alertView show];
 }
+
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {

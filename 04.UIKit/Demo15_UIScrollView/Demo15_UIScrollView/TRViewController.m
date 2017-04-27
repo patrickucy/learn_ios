@@ -28,6 +28,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 	UIImage *image = [UIImage imageNamed:@"Floating Ice.jpg"];
+    
 	UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
 	
 	UIScrollView *scrollView = [[UIScrollView alloc] init];

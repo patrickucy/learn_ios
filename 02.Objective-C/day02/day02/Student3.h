@@ -10,7 +10,7 @@
 
 @interface Student3 : NSObject
 {
-	int age;//声明成员变量
+    int age;//声明成员变量
 }
 
 -(void)setAge:(int)newAge;

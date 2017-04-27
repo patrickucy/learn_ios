@@ -21,7 +21,6 @@
 		19A22691195B3D0E00EC1C81 /* Demo15_UIScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A22690195B3D0E00EC1C81 /* Demo15_UIScrollViewTests.m */; };
 		19A2269D195B3D2000EC1C81 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A2269B195B3D1F00EC1C81 /* TRViewController.m */; };
 		19A2269E195B3D2000EC1C81 /* TRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A2269C195B3D2000EC1C81 /* TRViewController.xib */; };
-		19A226A0195B3DAA00EC1C81 /* Floating Ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19A2269F195B3DAA00EC1C81 /* Floating Ice.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		19A2269A195B3D1F00EC1C81 /* TRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
 		19A2269B195B3D1F00EC1C81 /* TRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
 		19A2269C195B3D2000EC1C81 /* TRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRViewController.xib; sourceTree = "<group>"; };
-		19A2269F195B3DAA00EC1C81 /* Floating Ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Floating Ice.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 		19A22671195B3D0E00EC1C81 /* Demo15_UIScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				19A2269F195B3DAA00EC1C81 /* Floating Ice.jpg */,
 				19A2267A195B3D0E00EC1C81 /* TRAppDelegate.h */,
 				19A2267B195B3D0E00EC1C81 /* TRAppDelegate.m */,
 				19A2269A195B3D1F00EC1C81 /* TRViewController.h */,
@@ -231,7 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19A226A0195B3DAA00EC1C81 /* Floating Ice.jpg in Resources */,
 				19A22676195B3D0E00EC1C81 /* InfoPlist.strings in Resources */,
 				19A2269E195B3D2000EC1C81 /* TRViewController.xib in Resources */,
 				19A2267E195B3D0E00EC1C81 /* Images.xcassets in Resources */,
@@ -452,6 +448,7 @@
 				19A22696195B3D0E00EC1C81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19A22697195B3D0E00EC1C81 /* Build configuration list for PBXNativeTarget "Demo15_UIScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +457,7 @@
 				19A22699195B3D0E00EC1C81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

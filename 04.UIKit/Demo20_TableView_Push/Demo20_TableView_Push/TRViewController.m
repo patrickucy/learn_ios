@@ -118,7 +118,7 @@
     // Push the view controller.
     [self.navigationController pushViewController:detailViewController animated:YES];
 	 */
-	NSLog(@"row:%d",indexPath.row);
+	NSLog(@"row:%ld",(long)indexPath.row);
 	TRAreaViewController *areaViewController = [[TRAreaViewController alloc] initWithNibName:@"TRAreaViewController" bundle:nil];
 	areaViewController.area = self.areas[indexPath.row];
 	[self.navigationController pushViewController:areaViewController animated:YES];

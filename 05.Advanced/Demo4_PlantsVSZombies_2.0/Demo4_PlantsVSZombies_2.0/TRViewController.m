@@ -112,25 +112,21 @@
 				case 0:
 				{
 					self.dragPlant = [[TRSunFlower alloc] initWithFrame:CGRectMake(currentPoint.x - 40/2, currentPoint.y - 50/2, 40, 50)];
-					
 				}
 					break;
 				case 1:
 				{
 					self.dragPlant = [[TRPea alloc] initWithFrame:CGRectMake(currentPoint.x - 40/2, currentPoint.y - 50/2, 40, 50)];
-					 
 				}
 					break;
 				case 2:
 				{
 					self.dragPlant = [[TRIcePea alloc] initWithFrame:CGRectMake(currentPoint.x - 40/2, currentPoint.y - 50/2, 40, 50)];
-					
 				}
 					break;
 				case 3:
 				{
 					self.dragPlant = [[TRNut alloc] initWithFrame:CGRectMake(currentPoint.x - 40/2, currentPoint.y - 50/2, 40, 50)];
-					
 				}
 					break;
 				default:

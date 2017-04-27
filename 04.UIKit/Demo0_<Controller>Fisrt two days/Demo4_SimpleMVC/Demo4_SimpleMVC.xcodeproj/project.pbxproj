@@ -387,6 +387,7 @@
 				GCC_PREFIX_HEADER = "Demo4_SimpleMVC/Demo4_SimpleMVC-Prefix.pch";
 				INFOPLIST_FILE = "Demo4_SimpleMVC/Demo4_SimpleMVC-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -400,6 +401,7 @@
 				GCC_PREFIX_HEADER = "Demo4_SimpleMVC/Demo4_SimpleMVC-Prefix.pch";
 				INFOPLIST_FILE = "Demo4_SimpleMVC/Demo4_SimpleMVC-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +465,7 @@
 				199EA3161957E5C300626A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		199EA3171957E5C300626A37 /* Build configuration list for PBXNativeTarget "Demo4_SimpleMVCTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +474,7 @@
 				199EA3191957E5C300626A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

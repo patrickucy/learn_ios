@@ -69,7 +69,7 @@
 	
 	}else {
 		Person *p = [NSEntityDescription insertNewObjectForEntityForName:@"Person" inManagedObjectContext:app.managedObjectContext];
-		p.name  = name;
+		p.name = name;
 		p.age = age;
 	}
 	[app saveContext];
